@@ -286,12 +286,13 @@
             <!-- Yostar -->
             <div class="projects-card">
               <a class="i18n-href card-basic block overflow-hidden bg-white dark:bg-gray-800"
-                 data-href-ja="https://kyoushingi-lab.github.io/azurlane-damage-calc/"
-                 data-href-en="https://kyoushingi-lab.github.io/azurlane-damage-calc/"
-                 data-href-zh="https://kyoushingi-lab.github.io/azurlane-damage-calc/" target="_blank">
-                <img src="images/a-calc.png" alt="" class="w-full object-cover rounded-t-[16px]" style="aspect-ratio:600/1138;">
+                 data-href-ja="https://www.azurlane.jp/"
+                 data-href-en="https://www.azurlane.jp/"
+                 data-href-zh="https://www.azurlane.jp/" target="_blank">
+				 <!-- 这里先用占位图，之后你把文件替换成真正想用的 KV 即可 -->
+                <img src="images/azurlane-home.png" alt="" class="w-full object-cover rounded-t-[16px]" style="aspect-ratio:600/1138;">
                 <div class="p-2 text-left">
-                  <p class="project-title font-semibold text-gray-900 dark:text-gray-100" data-i18n="works.yostar.calc"></p>
+                  <p class="project-title font-semibold text-gray-900 dark:text-gray-100" data-i18n="home.projects.yostar.title"></p>
                   <p class="text-[11px] text-gray-500 dark:text-gray-400 leading-tight" data-i18n="home.projects.yostar.company"></p>
                   <p class="text-[11px] text-gray-500 dark:text-gray-400 leading-tight" data-i18n="home.projects.yostar.role"></p>
                 </div>
@@ -377,12 +378,12 @@
             <!-- Yostar copy -->
             <div class="projects-card">
               <a class="i18n-href card-basic block overflow-hidden bg-white dark:bg-gray-800"
-                 data-href-ja="https://kyoushingi-lab.github.io/azurlane-damage-calc/"
-                 data-href-en="https://kyoushingi-lab.github.io/azurlane-damage-calc/"
-                 data-href-zh="https://kyoushingi-lab.github.io/azurlane-damage-calc/" target="_blank">
-                <img src="images/a-calc.png" alt="" class="w-full object-cover rounded-t-[16px]" style="aspect-ratio:600/1138;">
+                 data-href-ja="https://www.azurlane.jp/"
+                 data-href-en="https://www.azurlane.jp/"
+                 data-href-zh="https://www.azurlane.jp/" target="_blank">
+                <img src="images/azurlane-home.png" alt="" class="w-full object-cover rounded-t-[16px]" style="aspect-ratio:600/1138;">
                 <div class="p-2 text-left">
-                  <p class="project-title font-semibold text-gray-900 dark:text-gray-100" data-i18n="works.yostar.calc"></p>
+                  <p class="project-title font-semibold text-gray-900 dark:text-gray-100" data-i18n="home.projects.yostar.title"></p>
                   <p class="text-[11px] text-gray-500 dark:text-gray-400 leading-tight" data-i18n="home.projects.yostar.company"></p>
                   <p class="text-[11px] text-gray-500 dark:text-gray-400 leading-tight" data-i18n="home.projects.yostar.role"></p>
                 </div>
@@ -407,7 +408,7 @@
           <!-- 左侧头像：放大 + 居中 -->
           <div class="md:col-span-1 text-center space-y-4">
             <img src="images/MYMYMY.jpg" alt="KYOU"
-                 class="w-56 h-56 rounded-full mx-auto border-4 border-indigo-300 dark:border-indigo-500
+                 class="w-48 h-48 rounded-full mx-auto border-4 border-indigo-300 dark:border-indigo-500
                         object-cover transition transform hover:scale-110 cursor-pointer"
                  loading="lazy">
             <p class="text-2xl font-bold tracking-wide text-indigo-600 dark:text-indigo-400">KYOU</p>
@@ -690,7 +691,7 @@
                    data-link-en="https://kyoushingi-lab.github.io/azurlane-damage-calc/"
                    data-link-zh="https://kyoushingi-lab.github.io/azurlane-damage-calc/">
                   <img src="images/a-calc.png" alt="" class="w-full h-32 object-contain mb-3 rounded">
-                  <p class="font-semibold text-center" data-i18n="works.yostar.calc"></p>
+                  <p class="font-semibold text-center" data-i18n="home.projects.yostar.title"></p>
                 </a>
               </div>
             </details>
@@ -915,7 +916,8 @@ const i18n = {
         },
         yostar:{
           company:"2023–現在 株式会社Yostar",
-          role:"ゲームQA / ツール開発"
+          role:"ゲームQA",
+		  title:"アズールレーン"
         }
       }
     },
@@ -991,7 +993,8 @@ const i18n = {
         },
         yostar:{
           company:"2023–Present Yostar Inc.",
-          role:"Game QA / Tool Development"
+          role:"Game QA",
+		  title:"Azur Lane"
         }
       }
     },
@@ -1067,7 +1070,8 @@ const i18n = {
         },
         yostar:{
           company:"2023–至今 株式会社Yostar",
-          role:"游戏QA / 工具开发"
+          role:"游戏QA",
+		  title:"碧蓝航线"
         }
       }
     },
@@ -1242,4 +1246,3 @@ tabLinks.forEach(link=>{
 <script>lucide.createIcons();</script>
 </body>
 </html>
-
